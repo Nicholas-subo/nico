@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    list-style: none;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 20px;
+    background-color:rgb(0, 250, 12);
+}
+ul li{
+    margin-left: 90px;
+    font-size: large;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(4, 0, 238);
+}
+body{
+    background-image: url(tel.jpeg);
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: x-large;
+}
+p{
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(51, 255, 0);
+}
+.fom{
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 80%;
+    position: absolute;
+    background-color: rgb(229, 239, 241);
+    text-align: center;
+}

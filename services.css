@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    list-style: none;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 20px;
+    background-color:yellowgreen;
+}
+ul li{
+    margin-left: 90px;
+    font-size: large;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-image: url();
+    background-position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    float: right;
+    position: relative;
+    width: 900px;
+    height: 600px;
+}
+.title h1{  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+     
+}
